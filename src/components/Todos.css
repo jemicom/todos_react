@@ -1,0 +1,54 @@
+*{ 
+    margin:0;
+    padding:0; 
+}
+
+.todos-container{
+    width: 400px; 
+    margin: 100px auto;
+}
+
+.searchForm,
+.inputForm{
+    margin-bottom: 10px;
+}
+
+.searchForm label,
+.searchForm input,
+.inputForm input,
+.inputForm label{
+    display: block;
+}
+.searchForm input,
+.inputForm input {
+    width:100%; 
+    height: 40px;
+    text-indent: 1rem;
+}
+.todoList{
+    list-style: none;
+}
+.todoList input[type='checkbox']{ 
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.todoList label{ 
+   /* text-transform: capitalize; */
+   text-transform:uppercase;
+}
+
+.todoList li{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:5px 0; 
+}
+.todoList label{
+    margin-right:auto; 
+}
+.todoList .deleteTodo{
+    /* align-items: right; */
+    width:30px;
+    height: 30px;
+}
